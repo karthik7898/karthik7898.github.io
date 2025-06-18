@@ -1,14 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Karthikeya Computer Science  Java">
+    <meta name="description" content="This is the profile page of Karthikeya">
+    <meta name="author" content="Karthikeya">
+    <meta http-equiv="refresh" content="60" url="http://localhost:8080/profile">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="robots" content="index, follow">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>hello world</h1>
-    <h2>hey</h2>
-    <h3>hiiii</h3>
-    
+    <header>
+        <h1>Karthikeya Profile</h1>
+    </header>
+    <main>
+        <!-- Personal Information -->
+        <section>
+            <h2>Personal Information</h2>
+            <img src="/assets/images/person.jpg" alt="" width="200px">
+            <p><strong>Name : </strong>Karthikeya</p>
+            <p><strong>Branch : </strong>Computer Science Engineering</p>
+            <p><strong>College : </strong>Malla Reddy University, Hyderabad</p>
+            <p><strong>Year : </strong>3rd Year</p>
+        </section>
+
+
+        <!-- Academic Performance -->
+        <section>
+            <h2>Academic Performance</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Semester</th>
+                        <th>Subject</th>
+                        <th>SGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1st</td>
+                        <td>Maths, SDF, Python</td>
+                        <td>8.2</td>
+                    </tr>
+                    <tr>
+                        <td>2nd</td>
+                        <td>Java, Physics, OOPS</td>
+                        <td>8.5</td>
+                    </tr>
+                    <tr>
+                        <td>3rd</td>
+                        <td>DBMS, OOSE, DV</td>
+                        <td>8.2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Technical Skills  -->
+
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Operating System: </strong>Windows</li>
+                <li><strong>Language: </strong>Java, Python</li>
+                <li><strong>Front End: </strong>HTML, CSS</li>
+                <li><strong>Front End framework: </strong>React JS</li>
+                <li><strong>Server framework: </strong>Spring</li>
+                <li><strong>DBMS: </strong>MYSQL, MongoDb</li>
+            </ul>
+        </section>
+        <!-- Hobbiesn& Interest -->
+        <section>
+            <h2>Hobbies & Interest</h2>
+            <ol>
+                <li>Football & Music</li>
+                <li>Geopolitics</li>
+                <li>Books</li>
+                <li>Wacthing Tech YouTube Videos</li>
+            </ol>
+        </section>
+
+        <!-- Contact Me -->
+        <section>
+            <h2>Contact Me</h2>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="Email" name="email" id="email">
+                </div>
+
+                <div class="form-group"><label for="">When to call back</label>
+                    <input type="date" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="">Contact Number</label>
+                    <input type="number" name="number" id="number">
+                </div>
+                <div class="form-group">
+                    <label for="">Description</label>
+                    <textarea name="description" id="" rows="5" cols="20"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="Github">GitHub Profile Url</label>
+                    <input type="url" name="GitHub" placeholder="Your GitHub Link">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                </div>
+
+
+
+
+
+
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+
+
 </body>
+
 </html>
